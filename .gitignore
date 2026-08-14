@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# секреты — на всякий случай, в этом репо их быть не должно
+.env
+.env.*
+!.env.example
+
+# редакторы
+.vscode/
+.idea/
+*.swp
+
+# временное
+*.log
+tmp/

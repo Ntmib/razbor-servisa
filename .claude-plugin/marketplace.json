@@ -1,0 +1,23 @@
+{
+  "name": "razbor-servisa",
+  "owner": {
+    "name": "Dmitry Ledovskih",
+    "url": "https://t.me/neurobussines"
+  },
+  "metadata": {
+    "description": "Скилл для Claude Code: превращает сервис без API в CLI-инструмент, которым управляет агент.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "razbor-servisa",
+      "description": "Разбор стороннего сервиса и сборка CLI для агента: развилка доступа (есть API / кривой / нет) → реверс скрытого API через режим разработчика браузера → CLI под стек проекта → Skill.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dmitry Ledovskih",
+        "url": "https://t.me/neurobussines"
+      },
+      "source": "./plugins/razbor-servisa"
+    }
+  ]
+}
